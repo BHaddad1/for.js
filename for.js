@@ -8,7 +8,10 @@ for (var i = 25; i < 76; i++)
   console.log( i );
 }
 
-
+for (var i = 0; i < 101; i++)
+  if (i % 30 === 0){
+    console.log(i);
+  }
 // Challenge 2
 // Use a for statement to log to the console a complete sentence stating the weather using the Array below:
 var weather_options = ["sunny", "snowy", "freezing", "partly cloudy", "drizzly"]
@@ -23,6 +26,9 @@ var words = ["car", "bike", "bus", "van", "scooter", "truck", "rv"]
 
 for (var i = 0; i < words.length; i++){
   if (words[i].length === 3){
+    console.log(words[i]);
+  }
+  else if (words[i].length === 4){
     console.log(words[i]);
   }
 }
